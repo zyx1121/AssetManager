@@ -16,9 +16,8 @@
 		E66675B92BA443A5006FA9F2 /* AssetManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66675B82BA443A5006FA9F2 /* AssetManagerUITestsLaunchTests.swift */; };
 		E66675CB2BA45D88006FA9F2 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66675CA2BA45D88006FA9F2 /* Account.swift */; };
 		E66675D12BA45E76006FA9F2 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66675D02BA45E76006FA9F2 /* Transaction.swift */; };
-		E66675D32BA4722B006FA9F2 /* AssetManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66675D22BA4722B006FA9F2 /* AssetManagerViewModel.swift */; };
-		E66675D92BA47EBA006FA9F2 /* AddAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66675D82BA47EBA006FA9F2 /* AddAccountView.swift */; };
 		E66675DB2BA493AE006FA9F2 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66675DA2BA493AE006FA9F2 /* AccountView.swift */; };
+		E6EFE4292BA6D355001D3B07 /* NewTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EFE4282BA6D355001D3B07 /* NewTransactionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +51,8 @@
 		E66675B82BA443A5006FA9F2 /* AssetManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E66675CA2BA45D88006FA9F2 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		E66675D02BA45E76006FA9F2 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
-		E66675D22BA4722B006FA9F2 /* AssetManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetManagerViewModel.swift; sourceTree = "<group>"; };
-		E66675D82BA47EBA006FA9F2 /* AddAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountView.swift; sourceTree = "<group>"; };
 		E66675DA2BA493AE006FA9F2 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		E6EFE4282BA6D355001D3B07 /* NewTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				E66675982BA443A4006FA9F2 /* AssetManagerApp.swift */,
-				E66675D22BA4722B006FA9F2 /* AssetManagerViewModel.swift */,
 				E66675C52BA444C1006FA9F2 /* Views */,
 				E66675C62BA444DE006FA9F2 /* Models */,
 				E666759E2BA443A5006FA9F2 /* Assets.xcassets */,
@@ -145,8 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				E666759A2BA443A4006FA9F2 /* ContentView.swift */,
-				E66675D82BA47EBA006FA9F2 /* AddAccountView.swift */,
 				E66675DA2BA493AE006FA9F2 /* AccountView.swift */,
+				E6EFE4282BA6D355001D3B07 /* NewTransactionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -290,13 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6EFE4292BA6D355001D3B07 /* NewTransactionView.swift in Sources */,
 				E666759B2BA443A4006FA9F2 /* ContentView.swift in Sources */,
 				E66675CB2BA45D88006FA9F2 /* Account.swift in Sources */,
-				E66675D92BA47EBA006FA9F2 /* AddAccountView.swift in Sources */,
 				E66675992BA443A4006FA9F2 /* AssetManagerApp.swift in Sources */,
 				E66675DB2BA493AE006FA9F2 /* AccountView.swift in Sources */,
 				E66675D12BA45E76006FA9F2 /* Transaction.swift in Sources */,
-				E66675D32BA4722B006FA9F2 /* AssetManagerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
