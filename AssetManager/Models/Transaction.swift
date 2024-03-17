@@ -8,13 +8,14 @@
 import Foundation
 import SwiftData
 
-enum TransactionType: String, Codable {
+enum TransactionType: String, CaseIterable, Codable {
     case income = "收入"
     case expense = "支出"
 }
 
-struct Transaction: Identifiable, Codable {
-    var id: UUID = UUID()
+@Model
+final class Transaction {
+    @Attribute(.unique) var id: UUID = UUID()
     var accountId: UUID
     var amount: Double
     var type: TransactionType

@@ -16,8 +16,9 @@ enum AccountType: String, CaseIterable, Codable {
     case liabilities = "負債"
 }
 
-class Account: Identifiable, Codable {
-    var id: UUID = UUID()
+@Model
+final class Account {
+    @Attribute(.unique) var id: UUID = UUID()
     var name: String
     var icon: String
     var type: AccountType
